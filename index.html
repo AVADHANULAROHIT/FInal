@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Techy Software</title>
- 
   </head>
   <body>
     <nav class="navbar background h-nav-resp">
@@ -16,7 +15,7 @@
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#services">Services</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact-US</a></li>
       </ul>
       <div class="rightnav v-class-resp">
         <input type="text" name="search" id="search" />
@@ -28,7 +27,7 @@
         <div class="line"></div>
       </div>
     </nav>
-    <section class="background first-section">
+    <section class="background first-section" id="home">
       <div class="box-main">
         <div class="firsthalf">
           <p class="text-big">
@@ -45,7 +44,7 @@
           </p>
           <div class="buttons">
             <button class="btn">Subscribe</button>
-            <button class="btn">Watch Video</button>
+            <button class="btn">Follow</button>
           </div>
         </div>
 
@@ -54,36 +53,20 @@
     </section>
     <!-- left-->
     <hr />
-    <section class="section">
+
+    <section class="section left" id="about">
       <div class="paras">
+        <h1 class="text-center">About Us</h1>
         <p class="sec-tag text-big">
-          NEXUS was born from a need across these industries to provide
-          manufacturers and dealers with a better software option to transact
-          business together. Beyond our foundational modules, we provide deep
-          insights for OEMs and their dealer partners with our advanced
-          analytics offering.
+          NEXUS is the silicon valley of our region.
         </p>
         <p class="sec-subtag text-small">
           NEXUS is a hybrid company headquartered in Grand Rapids, MI with
           global reach having team members across the globe. Our team culture
           and values are rooted in the Midwest and we are passionate to show the
-          world why Grand Rapids is the silicon valley of our region.
-        </p>
-      </div>
-      <div class="thumbnail">
-        <img src="img/back2.png" alt="loading image" />
-      </div>
-    </section>
-    <hr />
-    <section class="section left">
-      <div class="paras">
-        <p class="sec-tag text-big">
-          NEXUS is the silicon valley of our region.
-        </p>
-        <p class="sec-subtag text-small">
-          we was born from a need across these industries to provide
-          manufacturers and dealers with a better software option to transact
-          business together.
+          world why Grand Rapids is the silicon valley of our region.we are born
+          from a need across these industries to provide manufacturers and
+          dealers with a better software option to transact business together.
         </p>
       </div>
       <div class="thumbnail">
@@ -93,15 +76,23 @@
 
     <!-- hi -->
     <hr />
-    <section class="section">
+    <section class="section" id="services">
       <div class="paras">
+        <h1 class="text-center">Services</h1>
         <p class="sec-tag text-big">
           NEXUS is the silicon valley of our region.
         </p>
+
         <p class="sec-subtag text-small">
-          we was born from a need across these industries to provide
-          manufacturers and dealers with a better software option to transact
-          business together.
+          NEXUS is a hybrid company headquartered in Grand Rapids, MI with
+          global reach having team members across the globe. Our team culture
+          and values are rooted in the Midwest and we are passionate to show the
+          world why Grand Rapids is the silicon valley of our region.we are born
+          from a need across these industries to provide manufacturers and
+          dealers with a better software option to transact business together.we
+          was born from a need across these industries to provide manufacturers
+          and dealers with a better software option to transact business
+          together.
         </p>
       </div>
       <div class="thumbnail">
@@ -109,41 +100,50 @@
       </div>
     </section>
     <hr />
-    <section class="contact">
+    <section class="contact" id="contact">
       <h1 class="text-center">Contact US</h1>
       <div class="form">
-        <!-- <label for="name">Name</label> -->
+        
         <input
-        class="form-input"
+          class="form-input"
           type="text"
-          name="name"
-          id="name"
+          name="fullName"
+          id="fullName"
           placeholder="Enter Your Name"
           required
         />
         <input
-        class="form-input"
-          type="phone"
+          class="form-input"
+          type="tel"
           name="phone"
           id="phone"
           placeholder="Enter Your Phone Number"
           required
         />
         <input
-        class="form-input"
+          class="form-input"
           type="email"
           name="email"
           id="email"
           placeholder="Enter Your Email-Id"
           required
         />
-<textarea   class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Share your Experience"></textarea>
-        <button class="btn btn-dark">SUBMIT</button>
+        <textarea
+          class="form-input"
+          name="text"
+          id="text-area"
+          cols="30"
+          rows="10"
+          placeholder="Share your Experience"
+        ></textarea>
+        <button class="btn btn-dark" onclick="submitForm()">SUBMIT</button>
       </div>
     </section>
     <footer>
-        <p class="text-footer background ">&copy; 2024 Techy Software. All rights reserved.</p>
-      </footer>
-      <script src="js/resp.js"></script>
+      <p class="text-footer background">
+        &copy; 2024 Techy Software. All rights reserved.
+      </p>
+    </footer>
+    <script src="js/resp.js"></script>
   </body>
 </html>
