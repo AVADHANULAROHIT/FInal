@@ -1,5 +1,4 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Rubik&display=swap');
 
 * {
     margin: 0;
@@ -47,7 +46,7 @@ html{
 }
 
 .nav-list li a {
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-family: 'Poppins', sans-serif;
@@ -55,7 +54,7 @@ html{
 
 .nav-list li a:hover {
     text-decoration: none;
-    color: rgb(241, 11, 11);
+    color: rgb(221, 39, 39);
     text-transform: uppercase;
 }
 
@@ -97,14 +96,14 @@ html{
 }
 
 .firsthalf {
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
 .secondhalf {
-    width: 80%;
+    width: 100%;
     font-size: 45px;
 }
 
@@ -161,7 +160,7 @@ font-size: 23px;
     display: flex;
     align-items: center;
     justify-content:space-evenly;
-    max-width:  80%;
+    max-width:  90%;
     margin: auto;
     padding: 16px 0px ;
     font-family: 'Poppins', sans-serif;
@@ -175,7 +174,7 @@ font-size: 23px;
     flex-direction: row-reverse;
  }
  .paras{
-    padding: 10 70px;
+    padding: 0 70px;
  }
  .thumbnail img{
     width: 250px;
@@ -225,11 +224,13 @@ font-size: 23px;
     --primary-color: #000001;
   --secondary-color: rgb(255, 255, 255);
   --hover-color: #111;
-  --arrow-width: 10px;
+  --arrow-width: 5px;
   --arrow-stroke: 2px;
+  margin:4px 2px;
+  font-size: 15px;
   box-sizing: border-box;
   border: 0 rgb(101, 92, 92);
-  border-radius: 20px;
+  border-radius: 10px;
   color: var(--secondary-color);
   padding: 1em 1.8em;
   background: var(--primary-color);
@@ -241,7 +242,7 @@ font-size: 23px;
  }
   
  .btn-dark:hover {
-    background-color:rgb(79, 233, 14);
+    background-color:rgb(16, 16, 39);
     background: -moz-linear-gradient(white);
     stroke: dasharray 3px;
   }
@@ -304,4 +305,3 @@ top: 15px;
     padding: 0px;
   }
 }
-  
