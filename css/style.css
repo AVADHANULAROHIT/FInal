@@ -22,6 +22,10 @@ html{
     margin: 2px;
 
 }
+.navbar h1{
+  color: azure;
+  font-size: 100%;
+}
 
 .navbar {
     display: flex;
@@ -149,7 +153,7 @@ font-size: 23px;
     scroll-behavior: inherit;
  }
  .btn:hover{
-    background-color: lightslategray;
+    background-color: rgb(18, 122, 225);
     background: -moz-linear-gradient(white);
     text-transform: uppercase;
     stroke-dasharray: 3px;
@@ -269,6 +273,34 @@ top: 15px;
     background-color: aliceblue;
     margin: 5px 3px;
   }
+.social{
+align-items: center;
+padding:0px 50;
+margin: 0px 40px;
+justify-content:space-around;
+justify-items: inline;
+}
+.social img {
+  width: 40px;
+  border: 0px solid white;
+  border-radius: 50px;
+  margin: 0 10%;
+  padding: 20;
+
+}
+.social img:hover {
+  cursor:pointer;
+  position:relative;
+  padding:10px 20px;
+  background:rgb(110, 118, 198);
+  font-size:28px;
+  border-top-right-radius:10px;
+  border-bottom-left-radius:10px;
+  transition:all 1s;
+
+ 
+
+}
   @media only screen and(max-width: 1040px){
     .nav-list{
         flex-direction: column;
